@@ -1,0 +1,7 @@
+body { color: #f1f1f1;}
+.wrapper {
+  height: 300px;
+  .nav {
+    height: 100px;
+  }
+}
