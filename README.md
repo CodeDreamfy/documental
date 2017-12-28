@@ -1,6 +1,11 @@
 # blog
 
 > my blog
+TODO: 
+* add UI框架
+* 部署服务器-nginx ok
+* 服务端渲染怎么回事
+
 
 ## Build Setup
 
