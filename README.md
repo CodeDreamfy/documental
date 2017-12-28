@@ -7,6 +7,12 @@ TODO:
 * 服务端渲染怎么回事
 
 
+// TODO:
+* placeholder : https://github.com/michalsnik/vue-content-placeholders
+* loading animation : http://epic-spinners.epicmax.co/#/
+* vue-lazyload : https://github.com/hilongjw/vue-lazyload
+
+
 ## Build Setup
 
 ``` bash

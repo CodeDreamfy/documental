@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
-    <router-view />
-  </div>
+  <nav>
+    daohang
+  </nav>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'navigator',
 };
 </script>
