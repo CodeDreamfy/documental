@@ -1,0 +1,7 @@
+.nav {
+  .logo {
+    width: 200px; height: 60px;
+    float: left; display:flex; align-items: center;
+    img { vertical-align: middle;}
+  }
+}
