@@ -5,7 +5,7 @@
         <img src="../assets/logo.png" alt="">
       </a>
       <div class="navlist">
-        <a href="javascript:;">首页</a>
+        <a href="javascript:;" class="active">首页</a>
         <a href="javascript:;">技术笔记</a>
         <a href="javascript:;">生活随笔</a>
         <a href="javascript:;">音乐分享</a>
