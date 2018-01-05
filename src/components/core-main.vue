@@ -1,16 +1,24 @@
 <template>
-  <div class="core-container grid">
-    <div class="main-area">
-      <router-view></router-view>
+  <div class="core-mix">
+    <core-header></core-header>
+    <div class="core-container grid mt20">
+      <core-slide></core-slide>
+      <div class="main-area">
+        <router-view />
+      </div>
     </div>
   </div>
+  
 </template>
 
 <script>
+import coreHeader from './core-header';
+import coreSlide from './core-slide';
 
 export default {
-  name: 'main',
   components: {
+    coreHeader,
+    coreSlide,
   },
 };
 </script>

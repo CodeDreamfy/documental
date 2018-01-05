@@ -1,11 +1,16 @@
 <template>
   <div id="app">
-    <router-view />
+    <core-main />
   </div>
 </template>
 
 <script>
+import coreMain from './components/core-main';
+
 export default {
   name: 'app',
+  components: {
+    coreMain,
+  },
 };
 </script>

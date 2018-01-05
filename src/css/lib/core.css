@@ -1,0 +1,50 @@
+.core-mix { 
+  /* common */
+  .grid { width: 1190px; margin: 0 auto; }
+  .mt20 { margin-top: 20px;}
+  
+  .mod-wrap {
+    width: 100%; height: 60px; margin: 0 auto;
+    border-bottom: 1px solid #eee;
+    background: rgba(255,255,255,.95);
+  }
+  
+  .nav {
+    .logo {
+      width: 200px; height: 60px;
+      float: left; display:flex; align-items: center;
+      img { vertical-align: middle;}
+    }
+    .navlist {
+      float: right; height: 60px; display: flex; align-items: center;
+      a {
+        font-size: 16px; margin: 0 22px; position: relative;
+        height: 60px; display: flex; align-items: center; justify-content: center;
+        &:after {
+          content: ''; position: absolute; left: 50%; transform: translateX(-50%);
+          bottom: 0; height: 2px; width: 0; transition: all .8s;
+          background: #6190e8;
+        }
+        &:hover, &.active { 
+          color: #6190e8;
+          &:after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .core-container  {
+    box-shadow: 0 -2px 6px 0 #eee; min-height: 100px;
+    &:after {
+      content: ''; display: block; height: 1px;
+      clear: both; font-size: 0;
+    }
+    .main-area {
+      overflow: hidden; 
+    }
+    .main-slide { 
+      float: right; width: 240px; 
+    }
+  }
+}

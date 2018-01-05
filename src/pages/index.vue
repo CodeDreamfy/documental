@@ -1,13 +1,10 @@
 <template>
-  <div class="core-mix">
-    <core-header></core-header>
-    <core-main></core-main>
+  <div class="core-box">
+    {{ msg }}
   </div>
 </template>
 
 <script>
-import coreHeader from '../components/core-header';
-import coreMain from '../components/core-main';
 
 export default {
   name: 'index',
@@ -17,8 +14,6 @@ export default {
     };
   },
   components: {
-    coreHeader,
-    coreMain,
   },
 };
 </script>
