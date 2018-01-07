@@ -222,6 +222,19 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "http://r.cnpmjs.org/asynckit/download/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
+at-ui-style@^1.5.0:
+  version "1.5.0"
+  resolved "http://r.cnpmjs.org/at-ui-style/download/at-ui-style-1.5.0.tgz#7897048e721654fc331eea9c4604d0617ce642de"
+
+at-ui@^1.3.1:
+  version "1.3.1"
+  resolved "http://r.cnpmjs.org/at-ui/download/at-ui-1.3.1.tgz#84476f3ee28094739aaebd61e5c24cd16ab22b33"
+  dependencies:
+    vue "^2.3.4"
+    vue-i18n "^7.1.1"
+    vue-router "^2.5.3"
+    vue-template-compiler "^2.3.4"
+
 autoprefixer@^6.3.1:
   version "6.7.7"
   resolved "http://r.cnpmjs.org/autoprefixer/download/autoprefixer-6.7.7.tgz#1dbd1c835658e35ce3f9984099db00585c782014"
@@ -5721,6 +5734,10 @@ vue-hot-reload-api@^2.2.0:
   version "2.2.4"
   resolved "http://r.cnpmjs.org/vue-hot-reload-api/download/vue-hot-reload-api-2.2.4.tgz#683bd1d026c0d3b3c937d5875679e9a87ec6cd8f"
 
+vue-i18n@^7.1.1:
+  version "7.3.4"
+  resolved "http://r.cnpmjs.org/vue-i18n/download/vue-i18n-7.3.4.tgz#0203295b204bc362520d70111caf2c3803e33483"
+
 vue-loader@^13.3.0:
   version "13.6.1"
   resolved "http://r.cnpmjs.org/vue-loader/download/vue-loader-13.6.1.tgz#3ad365271b3db382722ab2eb0d6936d8d52ec2ce"
@@ -5739,6 +5756,10 @@ vue-loader@^13.3.0:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
+vue-router@^2.5.3:
+  version "2.8.1"
+  resolved "http://r.cnpmjs.org/vue-router/download/vue-router-2.8.1.tgz#9833c9ee57ac83beb0269056fefee71713f20695"
+
 vue-router@^3.0.1:
   version "3.0.1"
   resolved "http://r.cnpmjs.org/vue-router/download/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
@@ -5750,7 +5771,7 @@ vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.2:
+vue-template-compiler@^2.3.4, vue-template-compiler@^2.5.2:
   version "2.5.13"
   resolved "http://r.cnpmjs.org/vue-template-compiler/download/vue-template-compiler-2.5.13.tgz#12a2aa0ecd6158ac5e5f14d294b0993f399c3d38"
   dependencies:
@@ -5761,7 +5782,7 @@ vue-template-es2015-compiler@^1.6.0:
   version "1.6.0"
   resolved "http://r.cnpmjs.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.6.0.tgz#dc42697133302ce3017524356a6c61b7b69b4a18"
 
-vue@^2.5.2:
+vue@^2.3.4, vue@^2.5.2:
   version "2.5.13"
   resolved "http://r.cnpmjs.org/vue/download/vue-2.5.13.tgz#95bd31e20efcf7a7f39239c9aa6787ce8cf578e1"
 
