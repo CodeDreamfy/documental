@@ -1,39 +1,20 @@
 <template>
-  <div class="core-box">
-    <div class="row at-row no-gutter flex-between">
-      <at-card class="at-card-item" :body-style="{ padding: 0 }">
-        <div>
-          <img style="width: 100%" src="https://misc.aotu.io/koppthe/at-ui/cover.jpg">
-          <div style="padding: 14px;">
-            <p>AT-UI 1</p>
-            <p>DESC desciption</p>
+  <div class="index-page">
+    <div class="taglist-wrap" >
+      <a href="javascript:;" v-for="(tag, index) in taglist" :class="{'active' : index == 0}" :key="tag.id">{{ tag }}</a>
+    </div>
+    <div class="row at-row no-gutter flex-between list-wrap">
+      <template v-for="item in items" >
+        <at-card :body-style="{ padding: 0 }" :key="item.id">
+          <div>
+            <img style="width: 100%" src="http://placehold.it/240x113">
+            <div style="padding: 14px;">
+              <p>AT-UI 1 {{ item.msg }}</p>
+              <p>DESC desciption</p>
+            </div>
           </div>
-        </div>
-      </at-card>
-      <at-card  class="at-card-item" :body-style="{ padding: 0 }">
-        <div>
-          <img style="width: 100%" src="https://misc.aotu.io/koppthe/at-ui/cover.jpg">
-          <div style="padding: 14px;">
-            <p>AT-UI 2</p>
-          </div>
-        </div>
-      </at-card>
-      <at-card  class="at-card-item" :body-style="{ padding: 0 }">
-        <div>
-          <img style="width: 100%" src="https://misc.aotu.io/koppthe/at-ui/cover.jpg">
-          <div style="padding: 14px;">
-            <p>AT-UI 3</p>
-          </div>
-        </div>
-      </at-card>
-      <at-card style="width: 300px;" :body-style="{ padding: 0 }">
-        <div>
-          <img style="width: 100%" src="https://misc.aotu.io/koppthe/at-ui/cover.jpg">
-          <div style="padding: 14px;">
-            <p>AT-UI</p>
-          </div>
-        </div>
-      </at-card>
+        </at-card>
+      </template>
     </div>
   </div>
 </template>
@@ -45,15 +26,27 @@ export default {
   data() {
     return {
       msg: 'Welcome to My Blog',
+      items: [
+        { msg: 'blog1~~' },
+        { msg: 'blog2~~' },
+        { msg: 'blog3~~' },
+        { msg: 'blog4~~' },
+      ],
+      taglist: [
+        '全部文章',
+        'Web开发',
+        '移动开发',
+        'Nodejs',
+      ],
     };
   },
   components: {
   },
   beforeCreate() {
-    this.$Loading.start();
+    // this.$Loading.start();
   },
   mounted() {
-    this.$Loading.finish();
+    // this.$Loading.finish();
   },
 };
 </script>

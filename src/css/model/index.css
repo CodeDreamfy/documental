@@ -1,0 +1,21 @@
+.index-page {
+  padding-top: 10px;
+  .taglist-wrap {
+    a {
+      display: inline-block; padding: 0 10px;
+      margin: 10px 10px 10px 0; height: 30px;
+      font-size: 16px; line-height: 30px;
+      transition: all .2s;
+      &.active {
+        background: #6190e8; font-weight: 400;
+        color: #fff;
+      }
+      &:hover { color: #6190e8;}
+    }
+  }
+  .list-wrap { 
+    margin-top: 20px;
+    padding-right: 16px;
+    .at-card { width: 240px; margin-bottom: 16px;}
+  }
+}

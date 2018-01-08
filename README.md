@@ -13,6 +13,9 @@ TODO:
 * vue-lazyload : https://github.com/hilongjw/vue-lazyload
 
 
+占位符
+http://placehold.it/280x113
+
 ## Build Setup
 
 ``` bash
