@@ -1,16 +1,16 @@
 <template>
-  <div id="app">
-    <core-main />
-  </div>
+  <layout-view id="app">
+    <router-view slot="main" />
+  </layout-view>
 </template>
 
 <script>
-import coreMain from './components/core-main';
+import LayoutView from './components/core-main';
 
 export default {
   name: 'app',
   components: {
-    coreMain,
+    LayoutView,
   },
 };
 </script>

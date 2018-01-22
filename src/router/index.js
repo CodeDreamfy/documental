@@ -1,11 +1,20 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import index from '@/pages/index';
-import post from '@/pages/post';
-import music from '@/pages/musiclist';
+import Index from '@/pages/index';
+// import post from '@/pages/post';
+import postList from '@/components/postList';
+// import postItem from '@/components/postItem';
+// import music from '@/pages/musiclist';
 
 Vue.use(Router);
 
+// const postChildRouter = [
+//   {
+//     path: '/',
+//     name: 'post-default',
+//     component: postList,
+//   },
+// ];
 const router = new Router({
   mode: 'history',
   // base: '/documental/',
@@ -13,17 +22,15 @@ const router = new Router({
     {
       path: '/',
       name: 'index',
-      component: index,
-    },
-    {
-      path: '/post',
-      name: 'post',
-      component: post,
-    },
-    {
-      path: '/music',
-      name: 'music',
-      component: music,
+      component: Index,
+      children: [
+        {
+          path: '/post',
+          name: 'post',
+          component: postList,
+          // children: postChildRouter,
+        },
+      ],
     },
   ],
 });
