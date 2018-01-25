@@ -1,6 +1,20 @@
 # blog
 
 > my blog
+TODO: 
+* add UI框架
+* 部署服务器-nginx ok
+* 服务端渲染怎么回事
+
+
+// TODO:
+* placeholder : https://github.com/michalsnik/vue-content-placeholders
+* loading animation : http://epic-spinners.epicmax.co/#/
+* vue-lazyload : https://github.com/hilongjw/vue-lazyload
+
+
+占位符
+http://placehold.it/280x113
 
 ## Build Setup
 

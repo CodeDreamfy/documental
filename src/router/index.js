@@ -1,16 +1,26 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import HelloWorld from '@/components/HelloWorld';
+import Index from '@/pages/index';
+// import post from '@/pages/post';
+// import postList from '@/components/postList';
+import postItem from '@/components/postItem';
+// import music from '@/pages/musiclist';
 
 Vue.use(Router);
 
 const router = new Router({
-  // mode: 'history',
+  mode: 'history',
+  // base: '/documental/',
   routes: [
     {
       path: '/',
       name: 'index',
-      component: HelloWorld,
+      component: Index,
+    },
+    {
+      path: '/post',
+      name: 'postItem',
+      component: postItem,
     },
   ],
 });

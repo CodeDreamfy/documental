@@ -1,0 +1,52 @@
+.core-post {
+  .taglist-wrap {
+    a {
+      display: inline-block; padding: 0 10px;
+      margin: 10px 10px 10px 0; height: 30px;
+      font-size: 16px; line-height: 30px;
+      transition: all .2s;
+      &.active {
+        background: #6190e8; font-weight: 400;
+        color: #fff;
+      }
+      &:hover { color: #6190e8;}
+    }
+  }
+  .list-wrap { 
+    margin-top: 20px;
+    padding-right: 16px;
+    .postimg { width: 240px; height: 113px; overflow: hidden;}
+    .at-card { width: 240px; margin-bottom: 16px;}
+  }
+}
+
+article.post {
+  .cover {
+    height: 280px; overflow: hidden;
+    background: #f1f1f1;
+    img { 
+      text-align: center; 
+    }
+  }
+  .inner {
+    padding: 10px 20px;
+  }
+  .post-tit {
+    height: 60px; line-height: 60px; font-size: 36px;
+    font-weight: 800; border-bottom: 1px solid #f1f1f1;
+  }
+  .post-info {
+    height: 30px; display: flex; align-items: center;
+    font-size: 12px;
+    span {
+      padding: 0 8px; color: #333;
+      border-radius: 10px;
+    }
+    span:not(:first-child) {
+      margin-left: 20px; 
+    }
+  }
+  .post-content {
+    margin-top: 20px;
+  }
+}
