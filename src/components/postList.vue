@@ -5,10 +5,10 @@
     </div>
     <div class="row at-row no-gutter flex-between list-wrap">
       <template v-for="item in items" >
-        <at-card :body-style="{ padding: 0 }" :key="item.id">
-          <div class="postimg"><img style="width: 100%" src="http://placehold.it/240x113"></div>
-          <div style="padding: 14px;">
-            <p>AT-UI 1 {{ item.msg }}</p>
+        <at-card :body-style="{ padding: 0 }" :key="item.id" >
+          <div class="postimg" @click="routerLink"><img style="width: 100%" src="http://placehold.it/240x113"></div>
+          <div style="padding: 14px;" @click="routerLink">
+            <p>{{ item.msg }}</p>
             <p>DESC desciption</p>
           </div>
         </at-card>
@@ -34,6 +34,11 @@ export default {
         'Nodejs',
       ],
     };
+  },
+  methods: {
+    routerLink() {
+      this.$router.push({ name: 'postItem', params: { id: 1 } });
+    },
   },
 };
 </script>
