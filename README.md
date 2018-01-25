@@ -1,7 +1,7 @@
 # blog
 
 > my blog
-TODO: 
+TODO:
 * add UI框架
 * 部署服务器-nginx ok
 * 服务端渲染怎么回事
@@ -12,6 +12,8 @@ TODO:
 * loading animation : http://epic-spinners.epicmax.co/#/
 * vue-lazyload : https://github.com/hilongjw/vue-lazyload
 
+* github API https://1030310877.gitbooks.io/github-api-v3/content/authenticate/Authorizations.html
+http://wiki.jikexueyuan.com/project/github-developer-guides/basics-of-authentication.html
 
 占位符
 http://placehold.it/280x113
