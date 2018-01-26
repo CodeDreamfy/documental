@@ -1,8 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from '@/pages/index';
-// import post from '@/pages/post';
-// import postList from '@/components/postList';
 import postItem from '@/components/postItem';
 // import music from '@/pages/musiclist';
 
@@ -21,6 +19,22 @@ const router = new Router({
       path: '/post',
       name: 'postItem',
       component: postItem,
+    },
+    {
+      path: '/background',
+      component: () => import(/* webpackChunkName: "admin" */'@/pages/admin'),
+      children: [
+        {
+          path: '',
+          name: 'back_post',
+          component: () => import(/* webpackChunkName: "admin" */'@/pages/back_postlist'),
+        },
+        {
+          path: 'edit',
+          name: 'back_edit',
+          component: () => import(/* webpackChunkName: "admin" */'@/pages/back_edit'),
+        },
+      ],
     },
   ],
 });

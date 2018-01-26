@@ -17,7 +17,7 @@ mark { background: none; }
 input::-ms-clear { display: none !important; }
 body { font: 16px/1.5 \5FAE\8F6F\96C5\9ED1, \5B8B\4F53, "Hiragino Sans GB", STHeiti, "WenQuanYi Micro Hei", "Droid Sans Fallback", SimSun, sans-serif; background: #fff;  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #333;}
 a, a:hover { text-decoration: none; color: #333; }
-
+input,select,textarea { border: none; outline: 0;}
 html, body, #app {
   height: 100%
 }

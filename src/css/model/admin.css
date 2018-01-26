@@ -1,0 +1,38 @@
+.back-wrap {
+  padding:0 20px 30px;
+  .back-head {
+    height: 80px;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex; justify-content: space-between; align-items: center;
+    span.head-tit {
+      float: left; font-size: 24px; font-weight: 800;
+    }
+    .inner {
+      display: flex; justify-content: space-between; 
+      width: 300px;
+    }
+  }
+  .back-list {
+    margin-top: 30px; min-height: 600px;
+    .postcard {
+      width: 600px;
+      &:nth-child(2n+1) {
+        float: left;
+      }
+      &:nth-child(2n) {
+        float: right;
+      }
+      &:nth-child(n+3) {
+        margin-top: 16px;
+      }
+    }
+    &:after {
+      content:''; display: block; height: 1px; clear: both; font-size: 0;
+    }
+  }
+  .pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+}
