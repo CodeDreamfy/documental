@@ -1,6 +1,6 @@
 @import './lib/common.css';
 @import './lib/core.css';
-
+@import './lib/github-markdown.css';
 
 @import './model/index.css';
 @import './model/post.css';

@@ -10,19 +10,35 @@
         <span>create-time: <em>2018.1.25</em></span>
         <span>last-modify-time: <em>2018.1.25</em></span>
       </h3>
-      <div class="post-content">
+      <div class="post-content markdown-body" id="content">
         markdown转换html，希望可以转换顺利
       </div>
     </div>
   </article>
 </template>
 <script>
+const marked = require('marked');
+
 export default {
   name: 'post-item',
   data() {
     return {
 
     };
+  },
+  mounted() {
+    marked.setOptions({
+      renderer: new marked.Renderer(),
+      gfm: true,
+      tables: true,
+      breaks: false,
+      pedantic: false,
+      sanitize: false,
+      smartLists: true,
+      smartypants: false,
+      xhtml: false,
+    });
+    document.getElementById('content').innerHTML = marked('# Marked in browser');
   },
 };
 </script>

@@ -5,6 +5,7 @@ import AtComponents from 'at-ui';
 import 'at-ui-style/css/at.css';
 import App from './App';
 import router from './router';
+// import utils from './js/utils';
 import './css/main.css';
 
 Vue.config.productionTip = false;
@@ -16,3 +17,4 @@ new Vue({
   template: '<App/>',
   components: { App },
 });
+// utils(Vue);
