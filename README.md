@@ -18,6 +18,22 @@ http://wiki.jikexueyuan.com/project/github-developer-guides/basics-of-authentica
 占位符
 http://placehold.it/280x113
 
+# markdown
+https://github.com/evilstreak/markdown-js
+https://github.com/chjj/marked
+https://github.com/isagalaev/highlight.js
+https://github.com/mixu/markdown-styles
+
+
+# eslint-plugins
+https://github.com/prettier/eslint-plugin-prettier
+https://github.com/prettier/eslint-config-prettier
+https://github.com/prettier/eslint-plugin-prettier
+
+
+# flow
+https://github.com/facebook/flow/
+
 ## Build Setup
 
 ``` bash
