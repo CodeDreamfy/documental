@@ -1,5 +1,5 @@
-.core-mix { 
-  height: 100%; position: relative; padding-top: 120px;
+.core-mix {
+  position: relative; padding-top: 120px;
   /* common */
   .mt20 { margin-top: 20px;}
   .mt60 { margin-top: 60px;}
@@ -11,7 +11,7 @@
     background: rgba(255,255,255,.95);
   }
   .grid {
-    width: 1280px; margin: 0 auto; 
+    width: 1280px; margin: 0 auto;
     &:after {
       content:''; display: block; height: 1px; clear: both; font-size: 0;
     }
@@ -35,7 +35,7 @@
           bottom: 0; height: 2px; width: 0; transition: all .8s;
           background: #6190e8;
         }
-        &:hover, &.active { 
+        &:hover, &.active {
           color: #6190e8;
           &:after {
             width: 100%;
@@ -49,7 +49,7 @@
   }
   .core-container  {
     min-height: 100%; overflow: hidden; padding-bottom: 100px;
-    .grid { 
+    .grid {
       box-shadow: 0 -4px 8px 0 #ddd; position: relative;
       &:before {
         content: ''; font-size: 24px; font-weight:900;
@@ -60,9 +60,9 @@
       }
     }
     .main-area {
-      overflow: hidden; 
+      overflow: hidden;
     }
-    .main-slide { 
+    .main-slide {
       float: right; width: 240px;  margin-left: 20px;
       padding-top: 10px;
     }
@@ -71,7 +71,7 @@
         width: 100%;
         background: #283542; color: #fff;
         font-family: Source Code Pro,Monaco,Menlo,Consolas,monospace;
-        display: inline-block; 
+        display: inline-block;
         padding: 10px 20px 10px 10px; font-size: 16px;
         &::before {
           content: '$'; opacity: .5;
@@ -85,7 +85,7 @@
             background: #54617a; margin-right: 5px;
           }
         }
-  
+
       }
       .clb-content {
         li {

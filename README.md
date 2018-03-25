@@ -18,6 +18,11 @@ http://wiki.jikexueyuan.com/project/github-developer-guides/basics-of-authentica
 占位符
 http://placehold.it/280x113
 
+
+* markdown解析
+> https://github.com/evilstreak/markdown-js
+> https://github.com/lepture/editor
+
 ## Build Setup
 
 ``` bash

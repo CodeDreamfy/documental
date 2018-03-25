@@ -8,6 +8,7 @@ Vue.use(Router);
 
 const router = new Router({
   mode: 'history',
+  linkActiveClass: 'active',
   // base: '/documental/',
   routes: [
     {
@@ -16,7 +17,7 @@ const router = new Router({
       component: Index,
     },
     {
-      path: '/post',
+      path: '/post/:id',
       name: 'postItem',
       component: postItem,
     },
