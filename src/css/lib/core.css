@@ -49,8 +49,13 @@
   }
   .core-container  {
     min-height: 100%; overflow: hidden; padding-bottom: 100px;
+<<<<<<< HEAD
     .grid {
       box-shadow: 0 -4px 8px 0 #ddd; position: relative;
+=======
+    .grid {
+      box-shadow: 0 -2px 8px 0 #ddd; position: relative;
+>>>>>>> fe893b508e881dd6334607a4c46bc776b5659afe
       &:before {
         content: ''; font-size: 24px; font-weight:900;
         padding-left: 12px;
