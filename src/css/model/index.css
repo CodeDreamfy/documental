@@ -14,8 +14,9 @@
     }
   }
   .list-wrap { 
-    margin-top: 20px;
+    margin: 20px 0 0 -16px;
     padding-right: 16px;
-    .at-card { width: 240px; margin-bottom: 16px;}
+    justify-content: flex-start;
+    .at-card { width: 220px; margin: 0 16px 16px 16px;}
   }
 }

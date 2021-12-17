@@ -5,12 +5,12 @@
         <img src="../assets/logo.png" alt="">
       </a>
       <div class="navlist">
-        <a href="javascript:;" class="active">首页</a>
-        <a href="javascript:;">生活随笔</a>
-        <a href="javascript:;">案例实践</a>
-        <a href="javascript:;">导航推荐</a>
-        <a href="javascript:;">音乐分享</a>
-        <a href="javascript:;">电影推荐</a>
+        <router-link to="/">首页</router-link>
+        <router-link to="post">文章归档</router-link>
+        <router-link to="post">案例实践</router-link>
+        <router-link to="collection">导航推荐</router-link>
+        <router-link to="music">音乐分享</router-link>
+        <router-link to="the-film">电影推荐</router-link>
       </div>
     </nav>
   </div>

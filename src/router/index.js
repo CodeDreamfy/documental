@@ -1,13 +1,15 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import index from '@/pages/index';
-import post from '@/pages/post';
-import music from '@/pages/musiclist';
+import post from '@/pages/Post';
+import music from '@/pages/MusicShare';
+import collection from '@/pages/Collection';
 
 Vue.use(Router);
 
 const router = new Router({
   mode: 'history',
+  linkActiveClass: 'active',
   // base: '/documental/',
   routes: [
     {
@@ -24,6 +26,16 @@ const router = new Router({
       path: '/music',
       name: 'music',
       component: music,
+    },
+    {
+      path: '/collection',
+      name: 'collection',
+      component: collection,
+    },
+    {
+      path: '',
+      name: 'index',
+      component: index,
     },
   ],
 });

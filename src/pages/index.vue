@@ -7,7 +7,7 @@
       <template v-for="item in items" >
         <at-card :body-style="{ padding: 0 }" :key="item.id">
           <div>
-            <img style="width: 100%" src="http://placehold.it/240x113">
+            <img style="width: 100%" src="http://placehold.it/220x113">
             <div style="padding: 14px;">
               <p>AT-UI 1 {{ item.msg }}</p>
               <p>DESC desciption</p>
@@ -31,6 +31,9 @@ export default {
         { msg: 'blog2~~' },
         { msg: 'blog3~~' },
         { msg: 'blog4~~' },
+        { msg: 'blog5~~' },
+        { msg: 'blog6~~' },
+        { msg: 'blog7~~' },
       ],
       taglist: [
         '全部文章',
